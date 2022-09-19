@@ -26,11 +26,6 @@ function createBoxes (amount) {
       return boxesToAppear;
 };
 
-buttonCreate.addEventListener('click', () => {
-  let boxesToAdd = createBoxes(inputNumber.value);
-  boxesApp.append(...boxesToAdd); 
-}); 
-
 buttonDestroy.addEventListener('click', () => {
   boxesApp.innerHTML = '';
   

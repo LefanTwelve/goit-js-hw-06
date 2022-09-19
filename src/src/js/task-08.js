@@ -11,7 +11,7 @@ inputForm.addEventListener('submit', event => {
         return alert ('Please fill up all the fields!');
     };
 
-    const userData = {Email: formEmail, Password: formPassword};
+    const userData = {email: formEmail, password: formPassword};
     console.log(userData);
 
     event.currentTarget.reset();
